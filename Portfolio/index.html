@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio" />
+    <meta name="keywords" content="Portfolio, bootstrap, full-stack developer" />
+    <meta name="author" content="Marcela Cañénguez" />
+    <title>MCanenguez | Portfolio</title>
+    <link rel="icon" type="image/png" href="/Assets/images/icon-1.png">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <!-- Stylesheet CSS -->
+    <link rel="stylesheet" type="text/css" href="/Assets/styles.css">
+    <!-- Font-Awesome Stylesheet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar-portfolio">
+
+    <!-- NavBar with Bootstrap - Scrollspy -->
+    <header>
+      <nav id="navbar-portfolio" class="navbar fixed-top navbar-expand-lg px-4 py-2 style__1">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#home">
+            <img src="/Assets/images/icon-1.png" alt="Logo" width="40" class="d-inline-block align-middle">
+            MCanenguez
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+            <div class="navbar-nav nav-underline">
+              <a class="nav-link" href="#about">About</a>
+              <a class="nav-link" href="#skills">Skills</a>
+              <a class="nav-link" href="#education">Education</a>
+              <a class="nav-link" href="#experience">Experience</a>
+              <a class="nav-link" href="projects.html">Projects</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Top Image and Home Page-->
+    <section id="home" class="top-nav">
+      <div class="top-nav__img">
+        <div class="top-nav__bg">
+          <div class="border border-5 border-white p-5 text-center">
+            <h1 class="display-2">hi, i am marce</h1>
+            <span>welcome to my little dev corner</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Main Section with navbar section IDs -->
+    <main class="mx-4 my-5">
+    
+      <section id="about" class="pt-5">
+        <div class="container-md">
+          <div class="row align-items-center justify-content-center">
+            <div class="col-lg-4">
+              <div class="container d-flex align-content-center">
+                <img src="/Assets/images/pic-1.png" alt="placeholdit" class="img-fluid mx-auto rounded-5">
+              </div>
+            </div>
+            <div class="col-lg-5 p-4">
+              <div class="row">
+                <h2 class="display-4 text-end">Marcela Cañénguez</h2>
+                <p class="smal fw-lighter">She /  Her | Born November, 1995</p>
+                <p class="lead">Always been passionate about arts, design and innovation. Currently in the process of learning new skills and venturing into the world of web development as a Full Stack Junior. Self-taught here and there; I might not be your typical developer, yet my ultimate goal is providing solutions while finding balance in functionality and stylishness. Thank you for stopping by and joining my journey! If you want to collaborate, shoot me a message at any of my platforms.</p>
+              </div>
+              <div class="row mt-2 text-center about-socials">
+                <div class="col"><a class="btn btn-outline-light" href="https://www.instagram.com/justmarces/" target="_blank" role="button"><i class="fa-brands fa-instagram"></i></a></div>
+                <div class="col"><a class="btn btn-outline-light" href="https://github.com/MCanenguez" target="_blank" role="button"><i class="fa-brands fa-github"></i></a></div>
+                <div class="col"><a class="btn btn-outline-light" href="https://codepen.io/MCanenguez" target="_blank" role="button"><i class="fa-brands fa-codepen"></i></a></div>
+                <div class="col"><a class="btn btn-outline-light" href="mailto:marce.canenguez@gmail.con?Subject=Hello,%20I%20want%20to%20collab%20about.." role="button"><i class="fa-regular fa-envelope"></i></a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="pt-5">
+        <div class="container-md">
+          <div class="row justify-content-center">
+            <div class="col-lg-9 p-3">
+              <h4 class="display-6">Skills</h4>
+              <div class="row">
+                <div class="col-6 col-lg-3">
+                  <img src="/Assets/images/adobe_photoshop.svg" alt="adobe" class="skills-icon">
+                  <h6>Adobe Photoshop</h6>
+                  <p class="small">Learned photo editing since 2010 and never looked back. Photoshop is my main tool for anything graphic.</p>
+                </div>
+                <div class="col-6 col-lg-3">
+                  <img src="/Assets/images/google-drive-color-icon.svg" alt="google-drive" class="skills-icon">
+                  <h6>Google Suite</h6>
+                  <p class="small">Capable of intermediate to advanced GSuite usage of Spreadsheets and Docs, to name a few. Catching up with Looker Studio at a basic level.</p>
+                </div>
+                <div class="col-6 col-lg-3">
+                  <img src="/Assets/images/office-365.svg" alt="office-365" class="skills-icon">
+                  <h6>Office 365</h6>
+                  <p class="small">Acquired experience with Office, although I prefer in the latest years to work with Google due to its shareability.</p>
+                </div>
+                <div class="col-6 col-lg-3">
+                  <img src="/Assets/images/coding-icon.svg" alt="coding" class="skills-icon">
+                  <h6>Coding and Programming</h6>
+                  <p class="small">Basic to intermediate knowledge of HTML, CSS. Currently learning JavaScript and looking forward to starting React and NodeJS.</p>
+                </div>
+                <div class="col-6 col-lg-3">
+                  <img src="/Assets/images/dialog-icon.svg" alt="dialog" class="skills-icon">
+                  <h6>Languages</h6>
+                  <p class="small">Spanish: Native <br>English: C1 <br>French: A1 <span class="fst-italic">(je me souviens un peu!).</span></p>
+                </div>
+                <div class="col-6 col-lg-3">
+                  <img src="/Assets/images/business-presentation-icon-1.svg" alt="business-presentation" class="skills-icon">
+                  <h6>Business Presentation and Analytics</h6>
+                  <p class="small">Experience with presentation and data analysis for Quarterly and Monthly Business Reviews. Never too afraid of talking to different audiences.</p>
+                </div>
+                <div class="col-6 col-lg-3">
+                  <img src="/Assets/images/teamwork-together-icon.svg" alt="teamwork" class="skills-icon">
+                  <h6>Teamwork Focused</h6>
+                  <p class="small">Collaborative approach at all times. +1 year experience working as a team manager, having supported recruitment and mentoring processes.</p>
+                </div>
+                <div class="col-6 col-lg-3">
+                  <img src="/Assets/images/product-idea-icon-1.svg" alt="idea" class="skills-icon">
+                  <h6>Solutions Driven</h5>
+                  <p class="small">I like to propose solutions to problems, understand gaps and find automatization to boost productivity. Capable of working with little to no supervision.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="education" class="pt-5">
+        <div class="container-md">
+          <div class="row justify-content-center">
+            <div class="col-lg-9 p-3">
+              <h4 class="display-6">Education</h4>
+              <dl class="row">
+                <dt class="col-sm-2 text-end lead align-self-center style__3">2013</dt>
+                <dd class="col-sm-10">
+                  <dl class="row">
+                    <dt class="col-sm-4 text-center align-self-center style__4">Bachelor's Degree</dt>
+                    <dd class="col-sm-8">General Bachelor’s Degree at Colegio Guadalupano, San Salvador, El Salvador.
+                    </dd>
+                  </dl>
+                </dd>
+                <dt class="col-sm-2 text-end lead align-self-center style__3">2014 to 2015</dt>
+                <dd class="col-sm-10">
+                  <dl class="row">
+                    <dt class="col-sm-4 text-center align-self-center style__4">Architecture</dt>
+                    <dd class="col-sm-8">Two year studies at Universidad Centroamericana José Simeón Cañas. Not concluded.</dd>
+                  </dl>
+                </dd>
+                <dt class="col-sm-2 text-end lead align-self-center style__3">2021</dt>
+                <dd class="col-sm-10">
+                  <dl class="row">
+                    <dt class="col-sm-4 text-center align-self-center style__4">Six Sigma</dt>
+                    <dd class="col-sm-8">White Belt Certification, among other courses about Leadership.</dd>
+                  </dl>
+                </dd>
+                <dt class="col-sm-2 text-end lead align-self-center style__3">Present</dt>
+                <dd class="col-sm-10">
+                  <dl class="row">
+                    <dt class="col-sm-4 text-center align-self-center style__4">Full Stack Jr</dt>
+                    <dd class="col-sm-8">Full Stack Junior studies.</dd>
+                  </dl>
+                </dd>
+              </dl>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience" class="pt-5">
+        <div class="container-md">
+          <div class="row justify-content-center">
+            <div class="col-lg-9 p-3">
+              <h4 class="display-6">Experience</h4>
+              <dl class="row">
+                <dt class="col-sm-2 text-end lead align-self-center style__3">11/2017 to 09/2019</dt>
+                <dd class="col-sm-10">
+                  <dl class="row">
+                    <dt class="col-sm-4 text-center align-self-center style__4">Customer Service Representative</dt>
+                    <dd class="col-sm-8">Two year experience working as a frontline Customer Service representative at TELUS International. Worked for two departments, Client Care and Retentions. Had the pleasure to be part of the mentoring group for 4 months. 
+                    </dd>
+                  </dl>
+                </dd>
+                <dt class="col-sm-2 text-end lead align-self-center style__3">10/2019 to 08/2020</dt>
+                <dd class="col-sm-10">
+                  <dl class="row">
+                    <dt class="col-sm-4 text-center align-self-center style__4">Quality Assurance Analyst</dt>
+                    <dd class="col-sm-8">Promoted to QA Analyst for Client Care and Retentions. Gained experience with root-cause analysis doing CSAT and call scrubbing. Developed reporting and analytics skills. Improved excel and learning methodologies.</dd>
+                  </dl>
+                </dd>
+                <dt class="col-sm-2 text-end lead align-self-center style__3">09/2020 to Present</dt>
+                <dd class="col-sm-10">
+                  <dl class="row">
+                    <dt class="col-sm-4 text-center align-self-center style__4">Quality Assurance Team Lead</dt>
+                    <dd class="col-sm-8">Currently working at TELUS International as a QA Team Lead. Have worked for different accounts and stakeholders, leading groups of up to 13 QA Analysts, locally and remote. Partnered with peers across Central America, Europe and Asia.</dd>
+                  </dl>
+                </dd>
+              </dl>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+    </main>
+
+    <!-- Footer for Copyright-->
+    <footer>
+      <div class="container-fluid p-5 text-lg-end style__2">
+        <p class="small">
+          Developed by MCanenguez for
+          <br>KODIGO Academy; Full Stack Junior Class 15
+          <br>2023 © All Rights Reserved
+        </p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+
+</body>
+</html>

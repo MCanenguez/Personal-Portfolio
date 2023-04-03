@@ -1,0 +1,138 @@
+/* Color Palettes */
+:root {
+    --gray1: #22181c;
+    --gray2: #312F2F;
+    --gray3: #7c7a7a;
+    --pinky1: #ff5d73;
+    --pinky2: #F6E8EA;
+    --yellowy: #f9c22e;
+    --turquoise: #84dccf;
+}
+
+/* Animations */
+@keyframes bganimate {
+    0% {
+        transform: scale(1.15);
+        background-position: top left;
+    }
+    100% {
+        transform: scale(1);
+        background-position: center;
+    }
+}
+
+@keyframes panimate {
+    0% {
+        background-position: center;
+        filter: blur(1px);
+    }
+    100% {
+        background-position: bottom right;
+        filter: blur(0);
+    }
+}
+
+/* Styling for each global element */
+body {
+    padding-top: 66px;
+    background-color: var(--gray1);
+    color: var(--pinky2);
+}
+
+h2, h3, h4, h5 {
+    color: var(--pinky1);
+    border-bottom: 3px solid var(--pinky1);
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 0.5em;
+}
+
+h6 {
+    color: var(--turquoise);
+}
+
+/* Styling for individual classes */
+.style__1 {
+    background-color: var(--pinky1);
+    color: var(--pinky2);
+}
+
+.style__2 {
+    background-color: var(--gray2);
+    color: var(--turquoise);
+}
+
+.style__3 {
+    border-left: 2em solid var(--gray2);
+    color: var(--yellowy);
+    letter-spacing: 2px;
+}
+
+.style__4 {
+    color: var(--yellowy);
+    font-weight: 600;
+}
+
+.top-nav {
+    overflow: hidden;
+}
+
+.top-nav__img, .container-projects__img {
+    height: calc(100vh - 66px);
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.top-nav__img {
+    background-image: url('/Assets/images/background.jpg');
+    animation-name: bganimate;
+}
+
+.container-projects__img {
+    background-image: url('/Assets/images/background-2.jpg');
+    padding: 0;
+    animation-name: panimate;
+}
+
+.top-nav__bg, .container-projects__bg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(255, 93, 115, 0.5);
+}
+
+.about-socials .btn {
+    font-size: 1.4em;
+    border-radius: 100%;
+    border: none;
+    color: var(--pinky1);
+}
+
+.skills-icon {
+    max-width: 2.5em;
+    min-width: 1em;
+    padding: 10px 5px;
+}
+
+.container-projects {
+    row-gap: 1em;
+}
+
+.container-projects img {
+    max-width: 500px;
+    min-width: 150px;
+}
+
+.container-projects .btn {
+    border: none;
+    color: var(--pinky1);
+}
